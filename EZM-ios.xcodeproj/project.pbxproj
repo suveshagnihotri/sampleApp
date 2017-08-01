@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B93C9203CE2E58DBAAC35394 /* Pods_EZM_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B25E2DD546B3B1A0507BE1 /* Pods_EZM_ios.framework */; };
+		E914F90C1EA524D3000FC633 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914F90B1EA524D3000FC633 /* RegistrationViewController.swift */; };
+		E91FA0831EA217AF000E1A60 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FA0821EA217AF000E1A60 /* CollectionViewCell.swift */; };
+		E95546C81EAA04430084B307 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95546C71EAA04430084B307 /* RoundedCornerView.swift */; };
+		E95546CA1EAA4B600084B307 /* RoundShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95546C91EAA4B600084B307 /* RoundShapeView.swift */; };
+		E976382A1EA3564B00AE69E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97638291EA3564B00AE69E0 /* LoginViewController.swift */; };
+		E97B736E1EA60B7500C5B7CE /* CountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B736D1EA60B7500C5B7CE /* CountryTableViewController.swift */; };
+		E97B73701EA60BE000C5B7CE /* CountryViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97B736F1EA60BE000C5B7CE /* CountryViewCellTableViewCell.swift */; };
+		E989F9181EA169AA00F56FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989F9171EA169AA00F56FCD /* AppDelegate.swift */; };
+		E989F91A1EA169AA00F56FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E989F9191EA169AA00F56FCD /* ViewController.swift */; };
+		E989F91D1EA169AA00F56FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E989F91B1EA169AA00F56FCD /* Main.storyboard */; };
+		E989F9201EA169AA00F56FCD /* EZM_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E989F91E1EA169AA00F56FCD /* EZM_ios.xcdatamodeld */; };
+		E989F9221EA169AA00F56FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E989F9211EA169AA00F56FCD /* Assets.xcassets */; };
+		E989F9251EA169AA00F56FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E989F9231EA169AA00F56FCD /* LaunchScreen.storyboard */; };
+		E993C2761EA66EC400C91C71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E993C2751EA66EC400C91C71 /* GoogleService-Info.plist */; };
+		E993C2791EA7492600C91C71 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E993C2781EA7492600C91C71 /* Registration.swift */; };
+		E9B346591EAE86CE0039E66B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B346581EAE86CE0039E66B /* Article.swift */; };
+		E9F4E0831EAE564B003B5BF4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F4E0821EAE564B003B5BF4 /* DetailViewController.swift */; };
+		E9F4E0871EAE57E7003B5BF4 /* DetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F4E0861EAE57E7003B5BF4 /* DetailCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44B25E2DD546B3B1A0507BE1 /* Pods_EZM_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZM_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA22C52480F92C5B542C1E2 /* Pods-EZM-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZM-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZM-ios/Pods-EZM-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		85144D62C0B51A5279A0C5BB /* Pods-EZM-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZM-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZM-ios/Pods-EZM-ios.release.xcconfig"; sourceTree = "<group>"; };
+		E914F90B1EA524D3000FC633 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		E91FA0821EA217AF000E1A60 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E95546C71EAA04430084B307 /* RoundedCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		E95546C91EAA4B600084B307 /* RoundShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundShapeView.swift; sourceTree = "<group>"; };
+		E97638291EA3564B00AE69E0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E97B736D1EA60B7500C5B7CE /* CountryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewController.swift; sourceTree = "<group>"; };
+		E97B736F1EA60BE000C5B7CE /* CountryViewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewCellTableViewCell.swift; sourceTree = "<group>"; };
+		E989F9141EA169AA00F56FCD /* EZM-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZM-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E989F9171EA169AA00F56FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E989F9191EA169AA00F56FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E989F91C1EA169AA00F56FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E989F91F1EA169AA00F56FCD /* EZM_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EZM_ios.xcdatamodel; sourceTree = "<group>"; };
+		E989F9211EA169AA00F56FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E989F9241EA169AA00F56FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E989F9261EA169AA00F56FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E993C2751EA66EC400C91C71 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E993C2781EA7492600C91C71 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		E9B346581EAE86CE0039E66B /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		E9F4E0821EAE564B003B5BF4 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E9F4E0861EAE57E7003B5BF4 /* DetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E989F9111EA169A900F56FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93C9203CE2E58DBAAC35394 /* Pods_EZM_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC48F9A62B1B953CEC9BC2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EA22C52480F92C5B542C1E2 /* Pods-EZM-ios.debug.xcconfig */,
+				85144D62C0B51A5279A0C5BB /* Pods-EZM-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8774C67CF8E8B6F2003ED90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44B25E2DD546B3B1A0507BE1 /* Pods_EZM_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E989F90B1EA169A900F56FCD = {
+			isa = PBXGroup;
+			children = (
+				E989F9161EA169AA00F56FCD /* EZM-ios */,
+				E989F9151EA169AA00F56FCD /* Products */,
+				ADC48F9A62B1B953CEC9BC2C /* Pods */,
+				B8774C67CF8E8B6F2003ED90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E989F9151EA169AA00F56FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E989F9141EA169AA00F56FCD /* EZM-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E989F9161EA169AA00F56FCD /* EZM-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E993C2771EA748F600C91C71 /* models */,
+				E993C2751EA66EC400C91C71 /* GoogleService-Info.plist */,
+				E989F9171EA169AA00F56FCD /* AppDelegate.swift */,
+				E989F9191EA169AA00F56FCD /* ViewController.swift */,
+				E989F91B1EA169AA00F56FCD /* Main.storyboard */,
+				E989F9211EA169AA00F56FCD /* Assets.xcassets */,
+				E989F9231EA169AA00F56FCD /* LaunchScreen.storyboard */,
+				E989F9261EA169AA00F56FCD /* Info.plist */,
+				E989F91E1EA169AA00F56FCD /* EZM_ios.xcdatamodeld */,
+				E91FA0821EA217AF000E1A60 /* CollectionViewCell.swift */,
+				E97638291EA3564B00AE69E0 /* LoginViewController.swift */,
+				E914F90B1EA524D3000FC633 /* RegistrationViewController.swift */,
+				E97B736D1EA60B7500C5B7CE /* CountryTableViewController.swift */,
+				E97B736F1EA60BE000C5B7CE /* CountryViewCellTableViewCell.swift */,
+				E95546C71EAA04430084B307 /* RoundedCornerView.swift */,
+				E95546C91EAA4B600084B307 /* RoundShapeView.swift */,
+				E9F4E0821EAE564B003B5BF4 /* DetailViewController.swift */,
+				E9F4E0861EAE57E7003B5BF4 /* DetailCollectionViewCell.swift */,
+				E9B346581EAE86CE0039E66B /* Article.swift */,
+			);
+			path = "EZM-ios";
+			sourceTree = "<group>";
+		};
+		E993C2771EA748F600C91C71 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E993C2781EA7492600C91C71 /* Registration.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E989F9131EA169A900F56FCD /* EZM-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E989F9291EA169AA00F56FCD /* Build configuration list for PBXNativeTarget "EZM-ios" */;
+			buildPhases = (
+				C79E247D37A6503FEF86634C /* [CP] Check Pods Manifest.lock */,
+				E989F9101EA169A900F56FCD /* Sources */,
+				E989F9111EA169A900F56FCD /* Frameworks */,
+				E989F9121EA169A900F56FCD /* Resources */,
+				1C722B7566938DC37A95694C /* [CP] Embed Pods Frameworks */,
+				44BDE9B5DB25E4625D7AC135 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EZM-ios";
+			productName = "EZM-ios";
+			productReference = E989F9141EA169AA00F56FCD /* EZM-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E989F90C1EA169A900F56FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					E989F9131EA169A900F56FCD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E989F90F1EA169A900F56FCD /* Build configuration list for PBXProject "EZM-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E989F90B1EA169A900F56FCD;
+			productRefGroup = E989F9151EA169AA00F56FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E989F9131EA169A900F56FCD /* EZM-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E989F9121EA169A900F56FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E989F9251EA169AA00F56FCD /* LaunchScreen.storyboard in Resources */,
+				E993C2761EA66EC400C91C71 /* GoogleService-Info.plist in Resources */,
+				E989F9221EA169AA00F56FCD /* Assets.xcassets in Resources */,
+				E989F91D1EA169AA00F56FCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C722B7566938DC37A95694C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZM-ios/Pods-EZM-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44BDE9B5DB25E4625D7AC135 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZM-ios/Pods-EZM-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C79E247D37A6503FEF86634C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E989F9101EA169A900F56FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B346591EAE86CE0039E66B /* Article.swift in Sources */,
+				E95546CA1EAA4B600084B307 /* RoundShapeView.swift in Sources */,
+				E9F4E0871EAE57E7003B5BF4 /* DetailCollectionViewCell.swift in Sources */,
+				E914F90C1EA524D3000FC633 /* RegistrationViewController.swift in Sources */,
+				E989F9201EA169AA00F56FCD /* EZM_ios.xcdatamodeld in Sources */,
+				E9F4E0831EAE564B003B5BF4 /* DetailViewController.swift in Sources */,
+				E989F91A1EA169AA00F56FCD /* ViewController.swift in Sources */,
+				E97B73701EA60BE000C5B7CE /* CountryViewCellTableViewCell.swift in Sources */,
+				E993C2791EA7492600C91C71 /* Registration.swift in Sources */,
+				E95546C81EAA04430084B307 /* RoundedCornerView.swift in Sources */,
+				E91FA0831EA217AF000E1A60 /* CollectionViewCell.swift in Sources */,
+				E976382A1EA3564B00AE69E0 /* LoginViewController.swift in Sources */,
+				E989F9181EA169AA00F56FCD /* AppDelegate.swift in Sources */,
+				E97B736E1EA60B7500C5B7CE /* CountryTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E989F91B1EA169AA00F56FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E989F91C1EA169AA00F56FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E989F9231EA169AA00F56FCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E989F9241EA169AA00F56FCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E989F9271EA169AA00F56FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E989F9281EA169AA00F56FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E989F92A1EA169AA00F56FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA22C52480F92C5B542C1E2 /* Pods-EZM-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EZM-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "suvesh.EZM-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E989F92B1EA169AA00F56FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85144D62C0B51A5279A0C5BB /* Pods-EZM-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EZM-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "suvesh.EZM-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E989F90F1EA169A900F56FCD /* Build configuration list for PBXProject "EZM-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E989F9271EA169AA00F56FCD /* Debug */,
+				E989F9281EA169AA00F56FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E989F9291EA169AA00F56FCD /* Build configuration list for PBXNativeTarget "EZM-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E989F92A1EA169AA00F56FCD /* Debug */,
+				E989F92B1EA169AA00F56FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E989F91E1EA169AA00F56FCD /* EZM_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E989F91F1EA169AA00F56FCD /* EZM_ios.xcdatamodel */,
+			);
+			currentVersion = E989F91F1EA169AA00F56FCD /* EZM_ios.xcdatamodel */;
+			path = EZM_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E989F90C1EA169A900F56FCD /* Project object */;
+}

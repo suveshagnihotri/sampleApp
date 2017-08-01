@@ -1,0 +1,6 @@
+framework module Pods_EZM_ios {
+  umbrella header "Pods-EZM-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
